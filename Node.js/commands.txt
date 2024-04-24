@@ -1,0 +1,5 @@
+----- TO ENTER IN REPL ----- 
+node
+
+----- TO RUN "index.js" ----- 
+node index.js
