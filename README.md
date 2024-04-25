@@ -27,7 +27,7 @@
         <li>Part 4: "Natours" Site.</li>
     </ul>
     <br>
-    Segmented as follows:
+    Segmented as follows: <br>
     <ul>
         <li>Section 1: Welcome;</li>
         <li>Section 2: Intro;</li>
