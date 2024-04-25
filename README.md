@@ -3,7 +3,7 @@
 ## Introduction 📜 <br> 
 
 <p style="text-align: justify;">
-    Study content on <strong>Node.js</strong>, <strong>Nest.js</strong>, <strong>MongoDB</strong> and <strong>OpenSearch</strong> technulogies for building <strong>APIs</strong> using <strong>JavaScript</strong>. 
+    Study content on <strong>Node.js</strong>, <strong>Nest.js</strong>, <strong>MongoDB</strong> and <strong>OpenSearch</strong> technologies for building <strong>APIs</strong> using <strong>JavaScript</strong>. 
 </p>
 
 <hr>
@@ -13,7 +13,7 @@
 ### Node.js - <em>"The Complete Node.Js"</em><br>
 
 <p style="text-align: justify;">
-    Content taught, practiced and absorbed is located in the <strong><em>Node.js fulder</em></strong>. 
+    Content taught, practiced and absorbed is located in the <strong><em>Node.js folder</em></strong>. 
     <br>
     <br>
     Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=auZ50D2aAK4&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e'>https://www.youtube.com/watch?v=auZ50D2aAK4&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e</a>. 
@@ -27,7 +27,7 @@
         <li>Part 4: "Natours" Site.</li>
     </ul>
     <br>
-    Segmented as follows: 
+    Segmented as follows:
     <ul>
         <li>Section 1: Welcome;</li>
         <li>Section 2: Intro;</li>
@@ -51,7 +51,7 @@
 ### Nest.js - <em>"NestJS and Typescript Tutorial with TypeORM"</em><br>
 
 <p style="text-align: justify;">
-    Content taught, practiced and absorbed is located in the <strong><em>Nest.js fulder</em></strong>. 
+    Content taught, practiced and absorbed is located in the <strong><em>Nest.js folder</em></strong>. 
     <br>
     <br>
     Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S'>https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S</a>. 
@@ -107,7 +107,7 @@
 ### OpenSearch - <em>"Elasticsearch and OpenSearch Tutorials"</em><br>
 
 <p style="text-align: justify;">
-    Content taught, practiced and absorbed is located in the <strong><em>OpenSearch fulder</em></strong>. 
+    Content taught, practiced and absorbed is located in the <strong><em>OpenSearch folder</em></strong>. 
     <br>
     <br>
     Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwyKik'>https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwyKik</a>. 
@@ -126,7 +126,7 @@
 
 <hr>
 
-## Technulogies Used 🛠️ <br>
+## Technologies Used 🛠️ <br>
 
 - ``JavaScript``
 - ``Node.js``
