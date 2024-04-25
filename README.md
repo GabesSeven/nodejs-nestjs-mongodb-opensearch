@@ -6,7 +6,6 @@
     Study content on <strong>Node.js</strong>, <strong>Nest.js</strong>, <strong>MongoDB</strong> and <strong>OpenSearch</strong> technulogies for building <strong>APIs</strong> using <strong>JavaScript</strong>. 
 </p>
 
-<br>
 <hr>
 
 ## Content 💻 <br>
@@ -17,7 +16,7 @@
     Content taught, practiced and absorbed is located in the <strong><em>Node.js fulder</em></strong>. 
     <br>
     <br>
-    Complete course available on <strong>YouTube</strong>: <a href='https://www.youtube.com/watch?v=auZ50D2aAK4&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e'>https://www.youtube.com/watch?v=auZ50D2aAK4&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e</a>. 
+    Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=auZ50D2aAK4&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e'>https://www.youtube.com/watch?v=auZ50D2aAK4&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e</a>. 
     <br>
     <br>
     It has the following scope: 
@@ -55,7 +54,7 @@
     Content taught, practiced and absorbed is located in the <strong><em>Nest.js fulder</em></strong>. 
     <br>
     <br>
-    Complete course available on <strong>YouTube</strong>: <a href='https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S'>https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S</a>. 
+    Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S'>https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S</a>. 
     <br>
     <br>
     It has the following scope:
@@ -74,10 +73,10 @@
 ### MongoDB - <em>"MongoDB from Basic to Advanced (with Mongoose and Projects)"</em><br>
 
 <p style="text-align: justify;">
-    Content already studied and present in another <strong><em>personal repository on GitHub</em></strong>: <a href='https://github.com/GabesSeven/MongoDB/'>https://github.com/GabesSeven/MongoDB/</a>. 
+    Content already studied and present in another <strong><em>personal repository on GitHub</em></strong>:<br><a href='https://github.com/GabesSeven/MongoDB/'>https://github.com/GabesSeven/MongoDB/</a>. 
     <br>
     <br>
-    Complete course available on <strong>Udemy</strong>: <a href='https://www.udemy.com/course/mongodb-do-basico-ao-avancado-c-mongoose-e-projetos/?couponCode=ST6MT42324'>https://www.udemy.com/course/mongodb-do-basico-ao-avancado-c-mongoose-e-projetos/?couponCode=ST6MT42324</a>. 
+    Complete course available on <strong>Udemy</strong>:<br><a href='https://www.udemy.com/course/mongodb-do-basico-ao-avancado-c-mongoose-e-projetos/?couponCode=ST6MT42324'>https://www.udemy.com/course/mongodb-do-basico-ao-avancado-c-mongoose-e-projetos/?couponCode=ST6MT42324</a>. 
     <br>
     <br>
     Segmented as follows:
@@ -111,7 +110,7 @@
     Content taught, practiced and absorbed is located in the <strong><em>OpenSearch fulder</em></strong>. 
     <br>
     <br>
-    Complete course available on <strong>YouTube</strong>: <a href='https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwyKik'>https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwyKik</a>. 
+    Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwyKik'>https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwyKik</a>. 
     <br>
     <br>
     It has the following scope:
@@ -125,7 +124,6 @@
     </ul>
 </p>  
 
-<br>
 <hr>
 
 ## Technulogies Used 🛠️ <br>
@@ -162,7 +160,6 @@
 
 ![FLYWAY](https://img.shields.io/badge/flyway-CC0200?logo=flyway&logoCulor=white&style=for-the-badge) &nbsp; -->
 
-<br>
 <hr>
 
 ## Developer 🧑‍💻 <br>
