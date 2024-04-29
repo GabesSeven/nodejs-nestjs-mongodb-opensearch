@@ -1,0 +1,68 @@
+[
+    {
+        "id": 0,
+        "productName": "Avocados",
+        "image": "🥑",
+        "from": "Spain",
+        "nutrients": "Vitamin B, Vitamin K",
+        "quantity": "4 🥑",
+        "price": "6.50",
+        "organic": true,
+        "description": "A rite avocado yields to gentle pressure when held in the palm of the hand and squeezed. The frui is not sweet, but distinctly and subtly flavored, with smooth texture. The avocado is popular in vegetarian cuisine as a substitute for meats in sandwitches and salads because of its high fat content. Genarally, avocado is served raw, though  some cultivars, including the common 'Hass', can be cooked  for a short time without becoming bitter. It is used as the base for the Mexican dip know as guacamole, as well as a spread on corn tortillas or toast, served with spices."
+    },
+    {
+        "id": 1,
+        "productName": "Watermelon",
+        "image": "🍉",
+        "from": "China",
+        "nutrients": "Provitamin A, Vitamins B, Vitamins C",
+        "quantity": "4 🍉",
+        "price": "15.00",
+        "organic": false,
+        "description": null
+    },
+    {
+        "id": 2,
+        "productName": "Apple",
+        "image": "🍎",
+        "from": "USA",
+        "nutrients": "Vitamin A, Vitamin C, Vitamin E",
+        "quantity": "30 🍎",
+        "price": "12.99",
+        "organic": false,
+        "description": null
+    },
+    {
+        "id": 3,
+        "productName": "Banana",
+        "image": "🍌",
+        "from": "India",
+        "nutrients": "Vitamin C, Vitamin B6, Potassium, Magnesium, Fiber, Antioxidants",
+        "quantity": "12 🍌",
+        "price": "7.44",
+        "organic": true,
+        "description": null
+    },
+    {
+        "id": 4,
+        "productName": "Pineapple",
+        "image": "🍍",
+        "from": "Costa Rica",
+        "nutrients": "Vitamin B3, Vitamin C, Zinc",
+        "quantity": "7 🍍",
+        "price": "6.35",
+        "organic": true,
+        "description": null
+    },
+    {
+        "id": 5,
+        "productName": "Coconut",
+        "image": "🥥",
+        "from": "Indonesia",
+        "nutrients": "Vitamin B1, Vitamin B2, Vitamin B6, VitaminC, Potassium, Calcium, Sodium, Iron, Phosphorus",
+        "quantity": "1 🥥",
+        "price": "8.47",
+        "organic": true,
+        "description": null
+    }
+]
