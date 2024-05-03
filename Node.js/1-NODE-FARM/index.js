@@ -184,11 +184,11 @@
 // /* ----- SERVER ----- */
 // const server = http.createServer((req, res) => {
 //     // console.log(req.url);
-//     const pathName = req.url;
+//     const pathname = req.url;
 
-//     if(pathName === '/' || pathName === '/overview'){
+//     if(pathname === '/' || pathname === '/overview'){
 //         res.end('This is the OVERVIEW');
-//     } else if(pathName === '/product') {
+//     } else if(pathname === '/product') {
 //         res.end('This is the PRODUCT');
 //     } else {
 //         res.writeHead(404, {
@@ -205,54 +205,11 @@
 
 
 
-/* ----- CLASS 12, 13 ----- */
+/* ----- CLASS 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 ----- */
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
-
-// const server = http.createServer((req, res) => {
-//     // console.log(req.url);
-//     const pathName = req.url;
-    
-//     if(pathName === '/' || pathName === '/overview'){
-//         res.end('This is the OVERVIEW');
-//     } else if(pathName === '/product') {
-//         res.end('This is the PRODUCT');
-//     } else if(pathName === '/api') {
-        
-//         fs.readFile(`${__dirname}/dev-data/data.json`, 'utf-8', (err, data) => {
-//             const productData = JSON.parse(data);
-//             res.writeHead(404, {'Content-type': 'application/json'});
-//             // console.log(productData);
-//             res.end(data);
-//         })
-        
-//     }else {
-//         res.writeHead(404, {
-//             'Content-type': 'text/html',
-//             'my-own-header': 'hello-world',
-//         });
-//         res.end('<h1>Page not found!</h1>');
-//     }
-// });
-
-// server.listen(8000, '127.0.0.7', () => {
-//     console.log('Listening to requests on port 8000');
-// });
-
-const replaceTemplate = (temp, product) => {
-    let output = temp.replace(/{%PRODUCTNAME%}/g, product.productName);
-    output = output.replace(/{%IMAGE%}/g, product.image);
-    output = output.replace(/{%PRICE%}/g, product.price);
-    output = output.replace(/{%FROM%}/g, product.from);
-    output = output.replace(/{%NUTRIENTS%}/g, product.nutrients);
-    output = output.replace(/{%QUANTITY%}/g, product.quantity);
-    output = output.replace(/{%DESCRIPTION%}/g, product.description);
-    output = output.replace(/{%ID%}/g, product.id);
-
-    if(!product.organic) output = output.replace(/{%NOT_ORGANIC%}/g, 'organic');
-    return output
-}
+const replaceTemplate = require('./modules/replaceTemplate');
 
 const tempOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf-8');
 const tempCard = fs.readFileSync(`${__dirname}/templates/template-card.html`, 'utf-8');
@@ -263,24 +220,31 @@ const dataObj = JSON.parse(data);
 
 const server = http.createServer((req, res) => {
     // console.log(req.url);
-    const pathName = req.url;
-    
+    // console.log(url.parse(req.url, true));
+    // const pathname = req.url;
+    const { query, pathname } = url.parse(req.url, true);
+
     // Overview page
-    if(pathName === '/' || pathName === '/overview'){
+    if(pathname === '/' || pathname === '/overview'){
         res.writeHead(200, {'Content-type': 'text/html'});
         
         const cardsHtml = dataObj.map(el => replaceTemplate(tempCard, el)).join('');
-        console.log(cardsHtml);
+        // console.log(cardsHtml);
         const output = tempOverview.replace('{%PRODUCT_CARDS%}', cardsHtml);
+        res.end(output);
         
+    // Product page
+    } else if(pathname === '/product') {
+        // console.log(query)
+        res.writeHead(200, {'Content-type': 'text/html'});
+        const product = dataObj[query.id];
+        const output = replaceTemplate(tempProduct, product);
+        
+        // res.end('This is the PRODUCT');
         res.end(output);
     
-    // Product page
-    } else if(pathName === '/product') {
-        res.end('This is the PRODUCT');
-    
     // API
-    } else if(pathName === '/api') {
+    } else if(pathname === '/api') {
         res.writeHead(404, {'Content-type': 'application/json'});
         res.end(data);
     
