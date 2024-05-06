@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/GabesSeven/nodejs-nestjs-mongodb-opensearch/tree/main#readme",
   "dependencies": {
-    "slugify": "^1.6.6"
+    "slugify": "^1.6.6",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
