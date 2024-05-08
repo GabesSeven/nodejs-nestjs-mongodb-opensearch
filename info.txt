@@ -1,8 +1,3 @@
------ NodeJS currently ----- 
-https://www.youtube.com/watch?v=HOCF-jcpX-Q&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e&index=9
-
-
-
 ----- NodeJS course ----- 
 https://www.youtube.com/watch?v=auZ50D2aAK4&list=PLOmL3sL-afbSlct9s9zJXV7KVeyXWQy9e
 
@@ -17,3 +12,9 @@ https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwy
 ----- Callback Hell, Promises, Async/Await ----- 
 https://chat.openai.com/share/58a93530-8b17-44e7-bf2c-f3be39422d58
 
+----- Dog API ----- 
+https://dog.ceo/dog-api/
+
+----- Natours ----- 
+https://www.natours.dev/
+https://github.com/lgope/Natours

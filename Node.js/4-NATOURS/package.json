@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabesSeven/nodejs-nestjs-mongodb-opensearch.git"
+  },
+  "author": "Gabriel Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabesSeven/nodejs-nestjs-mongodb-opensearch/issues"
+  },
+  "homepage": "https://github.com/GabesSeven/nodejs-nestjs-mongodb-opensearch#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}

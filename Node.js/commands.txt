@@ -1,3 +1,13 @@
+
+----- EXPRESS'S DOCUMENTATION ----- 
+https://expressjs.com/en/resources/middleware.html
+https://expressjs.com/
+
+----- TO UPLOAD TO GITHUB ----- 
+git add .
+git commit -m ":construction: build: Section 5 - finished"
+git push origin main
+
 ----- TO INSTALL NODEJS AND NPM ----- 
 sudo apt install -y nodejs npm
 
@@ -15,3 +25,9 @@ npm fund
 
 ----- TO INSTALL "superagent" ----- 
 npm i superagent
+
+----- TO INSTALL VERSION 4 OF "express" ----- 
+npm i express@4
+
+----- TO INSTALL "morgan" ----- 
+npm i morgan
