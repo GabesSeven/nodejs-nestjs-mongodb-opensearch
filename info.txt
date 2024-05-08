@@ -14,5 +14,6 @@ https://www.youtube.com/watch?v=SIl5PM4m2KM
 https://www.youtube.com/watch?v=Bn2SdXwDinA&list=PLArPZXE1kgwyQhFINDVNxlnI8ASAwyKik
 
 
-
+----- Callback Hell, Promises, Async/Await ----- 
+https://chat.openai.com/share/58a93530-8b17-44e7-bf2c-f3be39422d58
 

@@ -6,3 +6,12 @@ node
 
 ----- TO RUN "index.js" ----- 
 node index.js
+
+----- TO INSTALL "nodemon" ----- 
+Get-ExecutionPolicy
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+npm install -g nodemon
+npm fund
+
+----- TO INSTALL "superagent" ----- 
+npm i superagent
