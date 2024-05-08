@@ -57,9 +57,11 @@
     Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S'>https://www.youtube.com/watch?v=Os8rbrc_lXk&list=PLpcf8hdkpCYseV2ctwAhE4dY-AQ7v5D9S</a>. 
     <br>
     <br>
-    It has the following scope:
+    It has the following scope.
     <ul>
-        <li>;</li>
+        <li>Conhecendo o Nest.js (Apresentação Documentação Oficial e Instalação CLI); </li>
+        <li>Inicialização do Projeto (Task Data Transfer Objects / Dtos, Task Controllers, Module, Rotas / Body, Route e Query Params, ); </li>
+    
     </ul>
     <br>
     Segmented as follows: 
@@ -131,6 +133,7 @@
 - ``JavaScript``
 - ``Node.js``
 - ``Nest.js``
+- ``TypeScript``
 - ``MongoDB``
 - ``OpenSearch``
 
