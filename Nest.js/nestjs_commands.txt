@@ -1,0 +1,25 @@
+-------------------
+Documentation
+-------------------
+https://docs.nestjs.com/
+https://docs.nestjs.com/first-steps
+
+-------------------
+Install Nest.js CLI 
+-------------------
+npm i -g @nestjs/cli
+
+-------------------
+Start Nest.js project 
+-------------------
+nest new 1-task-management-api
+cd 1-task-management-api
+npm start
+
+-------------------
+Generate resource
+-------------------
+nest generate <resource-type> <resource-name>
+nest generate controller task
+nest generate module task
+nest generate service task

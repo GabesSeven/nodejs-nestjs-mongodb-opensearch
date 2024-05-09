@@ -1,0 +1,57 @@
+--------
+Class
+--------
+https://www.youtube.com/playlist?list=PLx4x_zx8csUhtPMrkiGvFJVE5LX8Qat5s
+https://www.youtube.com/watch?v=m6rkw8ITnBY&list=PLx4x_zx8csUhtPMrkiGvFJVE5LX8Qat5s&index=2
+
+--------
+Observations
+--------
+TypeScript: Fortemente tipada
+JavaScript: Fracamente tipada
+
+--------
+Installation
+--------
+https://www.typescriptlang.org/download/
+https://nodejs.org/en/download
+
+--------
+Present NodeJS, npm and TypeScript version 
+--------
+node -v
+npm -v
+tsc --version
+
+--------
+Compile TypeScript file to JavaScript
+Execute JavaScript file with Node 
+--------
+tsc aula02.ts
+node aula02.js
+
+--------
+Compile TypeScript file to JavaScript in a specific version 
+--------
+tsc aula03.ts --target "ES2016"
+tsc aula03.ts --target "ESNEXT"
+
+--------
+Documentation
+--------
+tsc
+tsc -h
+tsc --help
+
+--------
+Automatically monitors and compiles input files
+--------
+tsc -w
+tsc --watch
+
+--------
+Start project
+--------
+tsc --init
+
+
