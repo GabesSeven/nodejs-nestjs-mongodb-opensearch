@@ -3,7 +3,7 @@
 ## Introduction 📜 <br> 
 
 <p style="text-align: justify;">
-    Study content on <strong>Node.js</strong>, <strong>Nest.js</strong>, <strong>MongoDB</strong> and <strong>OpenSearch</strong> technologies for building <strong>APIs</strong> using <strong>JavaScript</strong>. 
+    Study content on <strong>Node.js</strong>, <strong>TypeScript</strong>, <strong>Nest.js</strong>, <strong>MongoDB</strong> and <strong>OpenSearch</strong> technologies for building <strong>APIs</strong> using <strong>JavaScript</strong>. 
 </p>
 
 <hr>
@@ -48,6 +48,25 @@
 
 <br>
 
+### TypeScripts - <em>"CFBCursos"</em><br>
+
+<p style="text-align: justify;">
+    Content taught, practiced and absorbed is located in the <strong><em>TypeScripts folder</em></strong>. 
+    <br>
+    <br>
+    Complete course available on <strong>YouTube</strong>:<br><a href='https://www.youtube.com/watch?v=vcpLrIzIKjI&list=PLx4x_zx8csUhtPMrkiGvFJVE5LX8Qat5s'>https://www.youtube.com/watch?v=vcpLrIzIKjI&list=PLx4x_zx8csUhtPMrkiGvFJVE5LX8Qat5s</a>. 
+    <br>
+    <br>
+    It has the following scope: 
+    <ul>
+        <li>Installation, Configuration and Compilation;</li>
+        <li>Type Inference, Union Types;</li>
+        <li>Array and Readonly Array;</li>
+    </ul>
+</p>
+
+<br>
+
 ### Nest.js - <em>"NestJS and Typescript Tutorial with TypeORM"</em><br>
 
 <p style="text-align: justify;">
@@ -59,14 +78,13 @@
     <br>
     It has the following scope.
     <ul>
-        <li>Conhecendo o Nest.js (Apresentação Documentação Oficial e Instalação CLI); </li>
-        <li>Inicialização do Projeto (Task Data Transfer Objects / Dtos, Task Controllers, Module, Rotas / Body, Route e Query Params, ); </li>
-    
-    </ul>
-    <br>
-    Segmented as follows: 
-    <ul>
-        <li>;</li>
+        <li>Official Documentation and CLI Installation;</li>
+        <li>Task Data Transfer Objects (Dtos);</li>
+        <li>Tasks Controllers, Module, Routes;</li>
+        <li>Task Service;</li>
+        <li>Authentication (User and Auth Controller, Hash/bcrypt, JWT);</li>
+        <li>Database Integration (TypeORM, Entities, Migrations, Repositories);</li>
+        <li>Decorators and Data Validation.</li>
     </ul>
 </p>
 
@@ -132,8 +150,8 @@
 
 - ``JavaScript``
 - ``Node.js``
-- ``Nest.js``
 - ``TypeScript``
+- ``Nest.js``
 - ``MongoDB``
 - ``OpenSearch``
 
