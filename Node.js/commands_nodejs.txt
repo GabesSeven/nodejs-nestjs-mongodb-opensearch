@@ -41,3 +41,6 @@ npm i dotenv
 
 ----- TO INSTALL PLUGINS WITH "eslint" ----- 
 npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
+
+----- TO INSTALL "mongodb" and "mongoose" ----- 
+npm i mongodb mongoose
