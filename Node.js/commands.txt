@@ -5,7 +5,7 @@ https://expressjs.com/
 
 ----- TO UPLOAD TO GITHUB ----- 
 git add .
-git commit -m ":construction: build: Section 5 - finished"
+git commit -m ":construction: in progress: Node.js - Section 7 - in progress"
 git push origin main
 
 ----- TO INSTALL NODEJS AND NPM ----- 
@@ -31,3 +31,13 @@ npm i express@4
 
 ----- TO INSTALL "morgan" ----- 
 npm i morgan
+
+----- FOR PERFORMS CREATING CUSTOM ENVIRONMENTAL VARIABLES ----- 
+<variable_name>=<variable_value> nodemon server.js
+NODE_ENV=developement X=23 nodemon server.js
+
+----- TO INSTALL "dotenv" ----- 
+npm i dotenv
+
+----- TO INSTALL PLUGINS WITH "eslint" ----- 
+npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev

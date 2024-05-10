@@ -15,7 +15,17 @@ exports.checkID = (req, res, next, val) => {
         });
     }
     next();
-}
+};
+
+exports.checkBody = (req, res, next) => {
+    if (!req.body.name || !req.body.price) {
+        return res.status(400).json({
+            status: 'fail',
+            message: 'Missing name or price'
+        });
+    }
+    next();
+};
 
 /* Route Handlers */
 exports.getAllTours = (req, res) => {
@@ -27,7 +37,7 @@ exports.getAllTours = (req, res) => {
             tours // tours: tours
         }
     });
-}
+};
 
 exports.getTour = (req, res) => {
     // console.log(req.params);
@@ -39,7 +49,7 @@ exports.getTour = (req, res) => {
             tour // tour: tour
         }
     });
-}
+};
 
 exports.createTour = (req, res) => {
     // console.log(req.body);
@@ -58,7 +68,7 @@ exports.createTour = (req, res) => {
             });
         }
     );
-}
+};
 
 exports.updateTour = (req, res) => {
     res.status(200).json({
@@ -67,11 +77,11 @@ exports.updateTour = (req, res) => {
             tour: '<Update tour here...>'
         }
     });
-}
+};
 
 exports.deleteTour = (req, res) => {
     res.status(204).json({
         status: 'success',
         data: null
     });
-}
+};
