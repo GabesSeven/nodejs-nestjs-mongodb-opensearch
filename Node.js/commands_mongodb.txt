@@ -1,0 +1,43 @@
+/* --- Local Database --- */
+use natours-test
+db.tours.insertOne({ name: "The Forest Hiker", price: 297, rating: 4.7})
+db.tours.insertMany({ name: "The Forest Hiker", price: 297, rating: 4.7})
+db.tours.find()
+show dbs 
+use natours-test
+show collections
+quit()
+
+/* --- Creating Documents --- */
+db.tours.insertMany([
+    { name: "The Sea Explorer", price: 497, rating: 4.8}, 
+    { name: "The Forest Hiker", price: 997, rating: 4.9, difficulty: "easy"}
+])
+db.tours.find()
+
+/* --- Querying (Reading) Documents --- */
+db.tours.find()
+db.tours.find({ name: "The Forest Hiker" })
+db.tours.find({ difficulty: "easy" })
+db.tours.find({ price: {$lte: 500} })
+db.tours.find({ price: {$lt: 500}, rating: {$gte: 4.8} })
+db.tours.find({ $or: [{price: {$lt: 500}}, {rating: {$gte: 4.8}}] })
+db.tours.find({ $or: [{price: {$gt: 500}}, {rating: {$gte: 4.8}}]}, {name: 1})
+
+/* --- Updating Documents --- */
+db.tours.updateOne({ name: "The Snow Adventurer" }, { $set: {price: 5} })
+db.tours.find()
+db.tours.find({ price: {$gt: 500}, rating: {$gte: 4.8} })
+db.tours.updateMany({ price: {$gt: 500}, rating: {$gte: 4.8}}, { $set: {premium: true}  })
+db.tours.find()
+
+/* --- Deleting Documents --- */
+db.tours.find()
+db.tours.deleteMany({ rating: {$lt: 4.8} })
+
+/* --- Connecting to Mongo Atlas CLI and Compass --- */
+mongosh "mongodb+srv://natours-dev.mgpj4md.mongodb.net/" --apiVersion 1 --username <username> --password <password>
+show dbs
+use natours
+show collections
+db.tours.find()
