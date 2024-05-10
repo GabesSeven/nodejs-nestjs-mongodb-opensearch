@@ -53,5 +53,3 @@ tsc --watch
 Start project
 --------
 tsc --init
-
-
