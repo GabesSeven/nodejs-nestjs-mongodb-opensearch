@@ -1,4 +1,7 @@
-/* --- Local Database --- */
+/* --- Mongoose's Documentation --- */
+https://mongoosejs.com/docs/api/model.html
+
+/* --- Local Database --- */ 
 use natours-test
 db.tours.insertOne({ name: "The Forest Hiker", price: 297, rating: 4.7})
 db.tours.insertMany({ name: "The Forest Hiker", price: 297, rating: 4.7})
