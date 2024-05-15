@@ -1,3 +1,6 @@
+/*
+Arquivos ".spec" referenciam arquivos de testes unitários.
+*/
 import { Test, TestingModule } from '@nestjs/testing';
 import { TaskController } from './task.controller';
 

@@ -1,3 +1,6 @@
+/*
+Arquivos ".module" referenciam arquivos que controlam a modularização (desaclopamento).
+*/
 import { Module } from '@nestjs/common';
 import { TaskController } from './task.controller';
 import { TaskService } from './task.service';

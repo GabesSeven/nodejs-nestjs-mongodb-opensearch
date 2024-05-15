@@ -1,8 +1,20 @@
 -------------------
+Annotations
+-------------------
+Princípio da responsabilidade única: 
+ - um arquivo "controller": recebe a solicitação e encaminha para "task service";
+ - um arquivo "task service": responsável pelo processamento dos dados e regras de negócio.
+
+Dicas:
+ - 1 - inicie, codificação e teste construindo os Controllers;
+ - 2 - posteriormente, 
+
+-------------------
 Documentation
 -------------------
 https://docs.nestjs.com/
-https://docs.nestjs.com/first-steps
+https://docs.nestjs.com/cli/overview
+https://github.com/deyvissonbrenoveras/task-management-api
 
 -------------------
 Install Nest.js CLI 

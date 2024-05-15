@@ -1,0 +1,15 @@
+"use strict";
+let nvalor;
+let svalor;
+let uvalor;
+uvalor = 10;
+svalor = '100';
+nvalor = svalor;
+console.log(nvalor);
+console.log(typeof (nvalor));
+nvalor = Number.parseInt(svalor);
+console.log(nvalor);
+console.log(typeof (nvalor));
+svalor = nvalor.toString();
+console.log(svalor);
+console.log(typeof (svalor));
