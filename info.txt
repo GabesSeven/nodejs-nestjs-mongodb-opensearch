@@ -18,3 +18,6 @@ https://dog.ceo/dog-api/
 ----- Natours ----- 
 https://www.natours.dev/
 https://github.com/lgope/Natours
+
+git remote -v 
+git@github.com:lgope/Natours.git
